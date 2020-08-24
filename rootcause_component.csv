@@ -1,0 +1,7 @@
+,Core,Testing,Utility,Build,Demo,UI
+String literals,33,18,5,8,1,10
+Incorrect regex,42,7,16,7,0,6
+nterface to other PL/OS,21,7,1,7,2,7
+Incorrect API usage,10,4,7,3,1,2
+Comparisons and operations,41,4,13,3,0,8
+String vs other types,3,2,4,0,0,1

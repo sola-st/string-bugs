@@ -1,0 +1,7 @@
+,Incorrect output,Corrupt a file,Error message,Test failure,OS-specific problem,Software-specific problem,Task not done
+String literals,18,2,10,9,6,6,9
+Incorrect regex,28,3,5,4,5,7,16
+Interface to other PL/OS,10,6,7,1,5,5,3
+Incorrect API usage,7,0,2,1,3,3,5
+Comparisons and operations,20,5,4,3,7,4,13
+String vs other types,2,0,5,1,0,1,0
