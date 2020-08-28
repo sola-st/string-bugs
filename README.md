@@ -2,10 +2,10 @@
 
 This repository contains the dataset and scripts of "No Strings Attached: An Empirical Study of String-related Software Bugs".
 
-For citing this work use ...
+For citing this work use "Aryaz Eghbali and Michael Pradel. 2020. No Strings Attached: An Empirical Study of String-related Software Bugs. In *35th IEEE/ACM International Conference on Automated Software Engineering (ASE ’20), September 21–25, 2020, Virtual Event, Australia*" (https://doi.org/10.1145/3324884.3416576).
 
 ## Dataset Description
-* The "main.csv" file contains all bugs from our study. The columns are as follows:
+* The `main.csv` file contains all bugs from our study. The columns are as follows:
    * Bug Description: A short textual description of the bug.
    * Commit URL: The Github URL to the commit that fixed the bug.
    * String literal fix: 1 if the bugfix fixed a string literal.
@@ -50,9 +50,9 @@ For citing this work use ...
    * Tool/Software warning: 1 if the bug causes a warning in some other tool or software.
    * Cause problem in a specific device: 1 if the bug happens in some device(s).
    * Security risk: 1 if the bug poses a security risk.
-* The "changes.csv" containes statistics on how many characters and lines are changed in each of the bugfixes studied.
-* The file "rootcause_component.csv" contains the matrix of how many of each root cause affect each component.
- The file "rootcause_consequence.csv" contains the matrix of how many of each root cause entails which consequences.
+* The `changes.csv` containes statistics on how many characters and lines are changed in each of the bugfixes studied.
+* The file `rootcause_component.csv` contains the matrix of how many of each root cause affect each component.
+ The file `rootcause_consequence.csv` contains the matrix of how many of each root cause entails which consequences.
 
 ## Scripts
 The following scripts (presented in the "scripts" directory) were used for various analysis:
