@@ -53,3 +53,12 @@ For citing this work use ...
 * The "changes.csv" containes statistics on how many characters and lines are changed in each of the bugfixes studied.
 * The file "rootcause_component.csv" contains the matrix of how many of each root cause affect each component.
  The file "rootcause_consequence.csv" contains the matrix of how many of each root cause entails which consequences.
+
+## Scripts
+The following scripts (presented in the "scripts" directory) were used for various analysis:
+* `extract_all_patches.sh`: Extracts all patches (commits) into separate files (one file per patch).
+* `small_fixes_in_js.py`: Selects commits with few number (4) of changed lines in js files.
+* `extract_interesting_commits.sh`: Copies the small commits from `small_fixes_in_js.py` script into a file for manual inspection.
+* `repair.js`: For each bugfix, looks for the added tokens in at most 100 lines away to see if those tokens appear in the vicinity of the code change.
+* `compare_with_jshint.py`: Runs JSHint and checks if any commits match the same lines of JSHint warnings. Also uses `.jshintrc`.
+
